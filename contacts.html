@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Контакты</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="d-flex">
+  <!-- Sidebar -->
+  <div class="bg-dark text-white p-3" style="width: 250px; min-height: 100vh;">
+    <div class="d-flex align-items-center gap-2 mb-3">
+      <span class="fw-bold">B</span>
+      <span class="fw-semibold">Меню</span>
+    </div>
+
+    <ul class="nav nav-pills flex-column gap-2">
+      <li class="nav-item">
+        <a class="nav-link text-white" href="index.html">Главная</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="catalog.html">Категории</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="orders.html">Заказы</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="contacts.html">Контакты</a>
+      </li>
+    </ul>
+
+    <div class="mt-auto pt-4">
+      <div class="dropdown">
+        <button class="btn btn-secondary w-100 dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Пользователь
+        </button>
+        <ul class="dropdown-menu w-100">
+          <li><a class="dropdown-item" href="#">Профиль</a></li>
+          <li><a class="dropdown-item" href="#">Выход</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div class="flex-fill p-5">
+    <h1 class="text-center mb-5">Контакты</h1>
+
+    <div class="row justify-content-center align-items-start g-5">
+      <div class="col-md-5">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <div class="mb-3">
+              <label class="form-label">Имя</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Почта</label>
+              <div class="input-group">
+                <span class="input-group-text">@</span>
+                <input type="email" class="form-control">
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Сообщение</label>
+              <textarea class="form-control" rows="4"></textarea>
+            </div>
+            <button class="btn btn-primary">Отправить</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-5">
+        <h4>Наши контакты</h4>
+        <p class="text-muted">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <p class="text-muted">
+          While these feedback styles cannot be styled with CSS, you can still customize the feedback text through JavaScript.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

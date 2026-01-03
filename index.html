@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Главная</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="d-flex">
+  <!-- Sidebar -->
+  <div class="bg-dark text-white p-3" style="width: 250px; min-height: 100vh;">
+    <div class="d-flex align-items-center gap-2 mb-3">
+      <span class="fw-bold">B</span>
+      <span class="fw-semibold">Меню</span>
+    </div>
+
+    <ul class="nav nav-pills flex-column gap-2">
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html">Главная</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="catalog.html">Категории</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="orders.html">Заказы</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="contacts.html">Контакты</a>
+      </li>
+    </ul>
+
+    <div class="mt-auto pt-4">
+      <div class="dropdown">
+        <button class="btn btn-secondary w-100 dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Пользователь
+        </button>
+        <ul class="dropdown-menu w-100">
+          <li><a class="dropdown-item" href="#">Профиль</a></li>
+          <li><a class="dropdown-item" href="#">Выход</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div class="flex-fill p-5 text-center">
+    <h1 class="mb-2">Главная</h1>
+    <p class="text-muted">Вы находитесь на сайте, предназначенном для продажи товаров.</p>
+
+    <div class="row justify-content-center mt-5 g-4">
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <div class="card-header text-center">Товар 1</div>
+          <div class="card-body text-center">
+            <h2 class="fw-bold">$ 100</h2>
+            <p class="text-muted small">10 users included, 2 GB of storage,<br>Email support, Help center access</p>
+            <a class="btn btn-outline-primary w-75" href="#">Купить</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <div class="card-header text-center">Товар 1</div>
+          <div class="card-body text-center">
+            <h2 class="fw-bold">$ 100</h2>
+            <p class="text-muted small">10 users included, 2 GB of storage,<br>Email support, Help center access</p>
+            <a class="btn btn-outline-primary w-75" href="#">Купить</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <div class="card-header text-center">Товар 1</div>
+          <div class="card-body text-center">
+            <h2 class="fw-bold">$ 100</h2>
+            <p class="text-muted small">10 users included, 2 GB of storage,<br>Email support, Help center access</p>
+            <a class="btn btn-outline-primary w-75" href="#">Купить</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Если у тебя есть локальный bootstrap.bundle.min.js -->
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
